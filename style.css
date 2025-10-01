@@ -3,7 +3,11 @@ html {
 }
 
 body {
-    justify-content: center;
+    
+}
+
+.container-1 {
+  justify-content: center;
     align-items: center;
     display: flex;
 }
@@ -80,4 +84,18 @@ button:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   color: white;
+}
+
+img {
+  border: 10px solid red hidden;
+  height: 50;
+  width: 50;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+  position: static;
+  margin-top: 0;
+}
+
+.nav {
+  padding-left: 1600;
 }
